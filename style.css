@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.age-row{
+    position: relative;
+}
+.text-age{
+    position: absolute;
+    float: right;
+    top:0;
+    left:790px;
+}
+form{
+    background-color: aqua;
+}
+@media screen and (max-width: 480px) {
+   
+    .age-row{
+        padding: 2px;
+    }
+    .text-age {
+        position: absolute;
+        top: 0;
+        left: 300px;
+        font-size: small;
+        margin-left: -10px;
+    }
+    .age-box{
+        width: 100px; /* Set the width */
+        height: 20px; /* Set the height */
+        box-sizing: border-box; 
+       
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    .text-age {
+        position: absolute;
+        top: 0;
+        left: 30px;
+        font-size: small;
+    }
+    .age-row{
+        padding: 4px;
+    }
+} 
+@media screen and (min-width: 721px) and (max-width: 1200px) {
+    .text-age {
+        position: absolute;
+        top: 0;
+        left: 460px;
+        font-size: small;
+    }
+    .age-row{
+        padding: 4px;
+    }
+} 
