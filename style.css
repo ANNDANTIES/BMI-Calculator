@@ -12,7 +12,14 @@
     left:790px;
 }
 form{
-    background-color: aqua;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(114, 76, 26);
+    border: 1px solid wheat;
+    border-radius: 20px;
+    height:70%;
+    color: white;
+    
 }
 @media screen and (max-width: 480px) {
    
@@ -26,7 +33,7 @@ form{
         font-size: small;
         margin-left: -10px;
     }
-    .age-box{
+    #age-box{
         width: 100px; /* Set the width */
         height: 20px; /* Set the height */
         box-sizing: border-box; 
@@ -55,4 +62,5 @@ form{
     .age-row{
         padding: 4px;
     }
+
 } 
